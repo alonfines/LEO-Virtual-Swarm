@@ -56,16 +56,6 @@ Below are visualizations from the OMNeT++ simulation environment:
 
 ---
 
-## 📖 References
-1. O. Korcak and F. Alagoz, “Priority-based Adaptive Shortest Path Routing in IP over LEO Satellite Networks,” AIAA, 2005.  
-2. Ekici, Akyildiz, Bender, “A multicast routing algorithm for LEO satellite IP networks,” IEEE/ACM Trans. Netw., 2002.  
-3. MitchCampion, PrakashRanganathan, SalehFaruque, “UAV swarm communication and control architectures,” J. of Unmanned Vehicle Systems, 2018.  
-4. Sidibeh, Vladimirova, “Wireless Communication in LEO Satellite Formations,” NASA/ESA Conf., 2008.  
-
-(See full list in the report.)
-
----
-
 ## 📂 Repository Structure
 
 ```
