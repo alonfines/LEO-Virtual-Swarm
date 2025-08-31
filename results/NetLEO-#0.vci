@@ -1,0 +1,86 @@
+file 259068 1710534595                                          
+version 2
+run NetLEO-0-20230428-09:15:50-2083
+attr configname NetLEO
+attr datetime 20230428-09:15:50
+attr experiment NetLEO
+attr inifile omnetpp.ini
+attr iterationvars ""
+attr iterationvarsf ""
+attr measurement ""
+attr network networks.NetLEO
+attr processid 2083
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 0
+param *.phase_deg 35
+param *.num_of_planes 5
+param *.num_of_sat_per_plane 15
+param *.distance_between_sats 4000m
+param *.active_sats "\"101 102 103 115 212 213 214 215 502 503 504 505\""
+param *.hoptime triang(18ms,20ms,22ms)
+param *.rte[*].app.ttl 22
+param **.appType "\"App\""
+
+vector 0 NetLEO.rte[64].app endToEndDelay:vector ETV
+attr interpolationmode none
+attr title "end-to-end delay of arrived packets, vector"
+attr unit s
+0	2435 56476 185 4924503 133.018391848957 874.059640540703 1349 0.018391848957 0.420414902524 204.24501940978 52.57188835808
+vector 1 NetLEO.rte[63].app endToEndDelay:vector ETV
+attr interpolationmode none
+attr title "end-to-end delay of arrived packets, vector"
+attr unit s
+1	58911 49535 203 4924491 133.019939344608 874.041248691746 1190 0.019841423458 0.440354247132 210.12656793913 59.795079921139
+vector 2 NetLEO.rte[2].app endToEndDelay:vector ETV
+attr interpolationmode none
+attr title "end-to-end delay of arrived packets, vector"
+attr unit s
+2	108446 27250 218 4910184 133.020217335411 803.060361653834 653 0.020217335411 0.396862125205 54.013660340827 11.559787489125
+vector 3 NetLEO.rte[1].app endToEndDelay:vector ETV
+attr interpolationmode none
+attr title "end-to-end delay of arrived packets, vector"
+attr unit s
+3	135696 22510 230 4910148 133.020933962927 803.040144318423 540 0.020100133694 0.417796088132 48.430311765141 12.555219633955
+vector 4 NetLEO.rte[29].app endToEndDelay:vector ETV
+attr interpolationmode none
+attr title "end-to-end delay of arrived packets, vector"
+attr unit s
+4	158206 27384 3251 4922681 133.299291655178 847.039626803923 656 0.020334126829 0.376712534663 62.72267376529 16.836448802719
+vector 5 NetLEO.rte[28].app endToEndDelay:vector ETV
+attr interpolationmode none
+attr title "end-to-end delay of arrived packets, vector"
+attr unit s
+5	185590 20838 84402 4922648 139.020171011935 847.019292677094 501 0.019292677094 0.396883546598 52.702163731763 16.420945960535
+vector 6 NetLEO.rte[0].app endToEndDelay:vector ETV
+attr interpolationmode none
+attr title "end-to-end delay of arrived packets, vector"
+attr unit s
+6	206428 13502 1435462 4910109 205.020195216614 803.020044184729 322 0.020044184729 0.320161288913 20.319353804933 3.8162051677154
+vector 7 NetLEO.rte[27].app endToEndDelay:vector ETV
+attr interpolationmode none
+attr title "end-to-end delay of arrived packets, vector"
+attr unit s
+7	219930 6678 2406285 4916940 454.280820374867 824.021695025665 159 0.020291337077 0.280820374867 6.128637914221 0.92993051991404
+vector 8 NetLEO.rte[62].app endToEndDelay:vector ETV
+attr interpolationmode none
+attr title "end-to-end delay of arrived packets, vector"
+attr unit s
+8	226608 24234 2413595 4924479 472.020253709213 874.021407268288 577 0.020253709213 0.460607956345 134.76558639134 46.41102154066
+vector 9 NetLEO.rte[14].app endToEndDelay:vector ETV
+attr interpolationmode none
+attr title "end-to-end delay of arrived packets, vector"
+attr unit s
+9	250842 3108 4223758 4877349 600.018920467735 726.018920467735 74 0.018920467735 0.339081756648 1.720275901303 0.14110927694121
+vector 10 NetLEO.rte[61].app endToEndDelay:vector ETV
+attr interpolationmode none
+attr title "end-to-end delay of arrived packets, vector"
+attr unit s
+10	253950 3569 4874773 4924129 720.019358036886 868.280122273496 83 0.019358036886 0.280122273496 2.649774007978 0.34347790620857
+vector 11 NetLEO.rte[26].app endToEndDelay:vector ETV
+attr interpolationmode none
+attr title "end-to-end delay of arrived packets, vector"
+attr unit s
+11	257519 1549 4885991 4922672 751.021426932948 847.021426932948 36 0.021426932948 0.021426932948 0.771369586128 0.016528084400091

@@ -1,0 +1,70 @@
+file 3844 1725265298                                            
+version 2
+run TwoAOI-AOI1-0-20240902-11:19:50-16120
+attr configname TwoAOI-AOI1
+attr datetime 20240902-11:19:50
+attr experiment TwoAOI-AOI1
+attr inifile omnetpp.ini
+attr iterationvars ""
+attr iterationvarsf ""
+attr measurement ""
+attr network networks.NetLEO
+attr processid 16120
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 0
+param *.phase_deg 35
+param *.num_of_planes 5
+param *.num_of_sat_per_plane 15
+param *.distance_between_sats 4000m
+param *.intra_plane_bias 8
+param *.inter_plane_bias 1
+param *.scenerio_num 4
+param *.active_sats "\"303 304 401 402 403 513 514 515\""
+param *.hoptime 50ms
+param *.rte[*].app.ttl 20
+param **.appType "\"App\""
+
+vector 0 NetLEO.rte[53].app endToEndDelay:vector ETV
+attr interpolationmode none
+attr title "end-to-end delay of arrived packets, vector"
+attr unit s
+vector 1 NetLEO.rte[52].app endToEndDelay:vector ETV
+attr interpolationmode none
+attr title "end-to-end delay of arrived packets, vector"
+attr unit s
+vector 2 NetLEO.rte[54].app endToEndDelay:vector ETV
+attr interpolationmode none
+attr title "end-to-end delay of arrived packets, vector"
+attr unit s
+vector 3 NetLEO.rte[64].app endToEndDelay:vector ETV
+attr interpolationmode none
+attr title "end-to-end delay of arrived packets, vector"
+attr unit s
+vector 4 NetLEO.rte[66].app endToEndDelay:vector ETV
+attr interpolationmode none
+attr title "end-to-end delay of arrived packets, vector"
+attr unit s
+vector 5 NetLEO.rte[65].app endToEndDelay:vector ETV
+attr interpolationmode none
+attr title "end-to-end delay of arrived packets, vector"
+attr unit s
+vector 6 NetLEO.rte[39].app endToEndDelay:vector ETV
+attr interpolationmode none
+attr title "end-to-end delay of arrived packets, vector"
+attr unit s
+vector 7 NetLEO.rte[40].app endToEndDelay:vector ETV
+attr interpolationmode none
+attr title "end-to-end delay of arrived packets, vector"
+attr unit s
+0	1956 192 156 1154 649.070976 653.070976 7 0.070976 0.940472 3.797296 3.230209122944
+1	2148 247 157 1189 649.070976 653.141952 9 0.070976 0.868128 3.797296 2.778274258816
+2	2395 219 158 1156 649.070976 653.070976 8 0.070976 1.012816 4.225888 3.784464332672
+3	2614 300 159 1515 649.070976 653.780736 11 0.070976 0.868128 4.578032 3.186319257472
+4	2914 192 160 1158 649.070976 653.070976 7 0.070976 1.012816 3.941984 3.502359148416
+5	3106 192 161 1159 649.070976 653.070976 7 0.070976 0.940472 3.655344 2.988404679296
+6	3298 274 348 1417 649.496832 653.638784 10 0.496832 0.940472 7.08408 5.273479046784
+7	3572 270 384 1464 649.567808 653.70976 10 0.567808 1.012816 7.799312 6.338551737472
+

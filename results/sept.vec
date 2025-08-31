@@ -1,0 +1,130 @@
+version 2
+run TwoAOI-AOI1-0-20240902-11:19:50-16120
+attr configname TwoAOI-AOI1
+attr datetime 20240902-11:19:50
+attr experiment TwoAOI-AOI1
+attr inifile omnetpp.ini
+attr iterationvars ""
+attr iterationvarsf ""
+attr measurement ""
+attr network networks.NetLEO
+attr processid 16120
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 0
+param *.phase_deg 35
+param *.num_of_planes 5
+param *.num_of_sat_per_plane 15
+param *.distance_between_sats 4000m
+param *.intra_plane_bias 8
+param *.inter_plane_bias 1
+param *.scenerio_num 4
+param *.active_sats "\"303 304 401 402 403 513 514 515\""
+param *.hoptime 50ms
+param *.rte[*].app.ttl 20
+param **.appType "\"App\""
+
+vector 0 NetLEO.rte[53].app endToEndDelay:vector ETV
+attr interpolationmode none
+attr title "end-to-end delay of arrived packets, vector"
+attr unit s
+vector 1 NetLEO.rte[52].app endToEndDelay:vector ETV
+attr interpolationmode none
+attr title "end-to-end delay of arrived packets, vector"
+attr unit s
+vector 2 NetLEO.rte[54].app endToEndDelay:vector ETV
+attr interpolationmode none
+attr title "end-to-end delay of arrived packets, vector"
+attr unit s
+vector 3 NetLEO.rte[64].app endToEndDelay:vector ETV
+attr interpolationmode none
+attr title "end-to-end delay of arrived packets, vector"
+attr unit s
+vector 4 NetLEO.rte[66].app endToEndDelay:vector ETV
+attr interpolationmode none
+attr title "end-to-end delay of arrived packets, vector"
+attr unit s
+vector 5 NetLEO.rte[65].app endToEndDelay:vector ETV
+attr interpolationmode none
+attr title "end-to-end delay of arrived packets, vector"
+attr unit s
+vector 6 NetLEO.rte[39].app endToEndDelay:vector ETV
+attr interpolationmode none
+attr title "end-to-end delay of arrived packets, vector"
+attr unit s
+vector 7 NetLEO.rte[40].app endToEndDelay:vector ETV
+attr interpolationmode none
+attr title "end-to-end delay of arrived packets, vector"
+attr unit s
+0	156	649.070976	0.070976
+0	555	649.851712	0.851712
+0	587	649.922688	0.922688
+0	658	652.072344	0.072344
+0	1051	652.868128	0.868128
+0	1089	652.940472	0.940472
+0	1154	653.070976	0.070976
+1	157	649.070976	0.070976
+1	519	649.780736	0.780736
+1	557	649.851712	0.851712
+1	659	652.072344	0.072344
+1	684	652.144688	0.144688
+1	1009	652.795784	0.795784
+1	1053	652.868128	0.868128
+1	1155	653.070976	0.070976
+1	1189	653.141952	0.141952
+2	158	649.070976	0.070976
+2	188	649.141952	0.141952
+2	585	649.922688	0.922688
+2	605	649.993664	0.993664
+2	660	652.072344	0.072344
+2	1087	652.940472	0.940472
+2	1129	653.012816	1.012816
+2	1156	653.070976	0.070976
+3	159	649.070976	0.070976
+3	191	649.141952	0.141952
+3	473	649.70976	0.70976
+3	517	649.780736	0.780736
+3	661	652.072344	0.072344
+3	687	652.144688	0.144688
+3	1007	652.795784	0.795784
+3	1048	652.868128	0.868128
+3	1157	653.070976	0.070976
+3	1192	653.141952	0.141952
+3	1515	653.780736	0.780736
+4	160	649.070976	0.070976
+4	552	649.851712	0.851712
+4	583	649.922688	0.922688
+4	662	652.072344	0.072344
+4	1085	652.940472	0.940472
+4	1126	653.012816	1.012816
+4	1158	653.070976	0.070976
+5	161	649.070976	0.070976
+5	515	649.780736	0.780736
+5	553	649.851712	0.851712
+5	663	652.072344	0.072344
+5	1049	652.868128	0.868128
+5	1084	652.940472	0.940472
+5	1159	653.070976	0.070976
+6	348	649.496832	0.496832
+6	386	649.567808	0.567808
+6	554	649.851712	0.851712
+6	586	649.922688	0.922688
+6	870	652.578752	0.578752
+6	909	652.651096	0.651096
+6	1050	652.868128	0.868128
+6	1088	652.940472	0.940472
+6	1378	653.567808	0.567808
+6	1417	653.638784	0.638784
+7	384	649.567808	0.567808
+7	427	649.638784	0.638784
+7	584	649.922688	0.922688
+7	604	649.993664	0.993664
+7	911	652.651096	0.651096
+7	956	652.72344	0.72344
+7	1086	652.940472	0.940472
+7	1128	653.012816	1.012816
+7	1419	653.638784	0.638784
+7	1464	653.70976	0.70976
+

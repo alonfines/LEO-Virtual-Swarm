@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scave:Analysis xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:scave="http://www.omnetpp.org/omnetpp/scave">
+  <inputs>
+    <inputs name="/routingTest/results/NetLEO-*.vec"/>
+    <inputs name="/routingTest/results/NetLEO-*.sca"/>
+  </inputs>
+  <datasets>
+    <datasets name="endToEndDelay:vector">
+      <items xsi:type="scave:Add" filterPattern="module(NetLEO.rte[2].app) AND name(endToEndDelay:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="module(NetLEO.rte[1].app) AND name(endToEndDelay:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="module(NetLEO.rte[64].app) AND name(endToEndDelay:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="module(NetLEO.rte[63].app) AND name(endToEndDelay:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="module(NetLEO.rte[28].app) AND name(endToEndDelay:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="module(NetLEO.rte[29].app) AND name(endToEndDelay:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="module(NetLEO.rte[0].app) AND name(endToEndDelay:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="module(NetLEO.rte[27].app) AND name(endToEndDelay:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="module(NetLEO.rte[62].app) AND name(endToEndDelay:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="module(NetLEO.rte[26].app) AND name(endToEndDelay:vector)" type="VECTOR"/>
+      <items xsi:type="scave:LineChart" name="endToEndDelay:vector"/>
+    </datasets>
+    <datasets name="endToEndDelay:vector NetLEO.rte[0].app">
+      <items xsi:type="scave:Add" filterPattern="module(NetLEO.rte[0].app) AND name(endToEndDelay:vector)" type="VECTOR"/>
+      <items xsi:type="scave:LineChart" name="endToEndDelay:vector NetLEO.rte[0].app"/>
+    </datasets>
+  </datasets>
+  <chartSheets/>
+</scave:Analysis>
