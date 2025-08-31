@@ -47,18 +47,11 @@ Our approach achieves synchronization of information among swarm members with lo
 ### Simulation Snapshots  
 Below are visualizations from the OMNeT++ simulation environment:  
 
-![Scenario 1 Snapshot 1](Scenrio1#0_18503.png)  
+![Scenario 1 Snapshot 1](Scenrio1_1.png)  
 *Packet flow across satellite swarm – synchronized routing*  
 
-![Scenario 1 Snapshot 2](Scenrio1#0_18506.png)  
+![Scenario 1 Snapshot 2](Scenrio1_2.png)  
 *Data arrival confirmation at active satellites*  
-
----
-
-## 🚀 Suggestions for Improvement
-- Reduce redundancy in packet forwarding (eliminate unnecessary hops).  
-- Optimize **initial packet direction** to further save power.  
-- Extend simulation for **multi-region monitoring** and larger constellations.  
 
 ---
 
