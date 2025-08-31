@@ -2,7 +2,7 @@
 
 **Final Year Project – Ben-Gurion University of the Negev**  
 **Department of Electrical and Computer Engineering**  
-**Students:** Ejnes Avidan, Alon Feinstein  
+**Students:** Ejnes Avidan, Alon Finestein  
 **Supervisor:** Prof. Michael Segal  
 
 ---
