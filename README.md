@@ -45,13 +45,14 @@ Our approach achieves synchronization of information among swarm members with lo
 - Demonstrated robustness in handling **link failures and congestion**.
 
 ### Simulation Snapshots  
+
 Below are visualizations from the OMNeT++ simulation environment:  
 
-![Scenario 1 Snapshot 1](Scenrio1_1.png)  
+![Scenario 1 – Packet flow](images/Scenario1_1.png)  
 *Packet flow across satellite swarm – synchronized routing*  
 
-![Scenario 1 Snapshot 2](Scenrio1_2.png)  
-*Data arrival confirmation at active satellites*  
+![Scenario 1 – Data arrival](images/Scenario1_2.png)  
+*Data arrival confirmation at active satellites* 
 
 ---
 
